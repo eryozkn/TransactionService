@@ -1,6 +1,6 @@
 ﻿namespace TransactionService.DAL.Entities
 {
-    public class TransactionEntity
+    public record TransactionEntity
     {
         public long Id { get; set; }
         public Guid Reference { get; set; }

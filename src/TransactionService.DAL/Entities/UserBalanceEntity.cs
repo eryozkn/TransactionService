@@ -1,6 +1,6 @@
 ﻿namespace TransactionService.DAL.Entities
 {
-    public class UserBalanceEntity
+    public record UserBalanceEntity
     {
         public long UserId { get; set; }
         public decimal Balance { get; set; }
