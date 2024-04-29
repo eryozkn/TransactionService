@@ -15,6 +15,7 @@ This repo contains Transaction Service with .NET8 Web API and responsible from u
 Run the following commands from the folder containing the .sln file in order to build and test.
 
 `dotnet build`
+
 `dotnet test`
 
 
