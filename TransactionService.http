@@ -1,0 +1,18 @@
+@TransactionService_HostAddress = https://localhost:81
+
+GET {{TransactionService_HostAddress}}/api/v1/balance/1
+Accept: application/json
+
+###
+
+POST {{TransactionService_HostAddress}}/api/v1/transaction
+Accept: application/json
+Content-Type: application/json
+
+{
+  "userId": 2,
+  "amount": 50,
+  "currency": "AED",
+  "transactionType": 1
+}
+
