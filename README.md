@@ -8,7 +8,8 @@ This repo contains Transaction Service with .NET8 Web API and responsible from u
 
 .NET8 SDK must be installed
 
-
+MSSQL Express must be installed and connection string must be modified for local setup for TransactionService project 
+and after that in TransactionService.DBMigration project, same connection string must be updated and project must be run locally to create database and seed data.
 
 ## Build, Test, Run
 
